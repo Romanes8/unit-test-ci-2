@@ -15,6 +15,7 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
+        type: 'javascript/esm',
         use: {
           loader: 'babel-loader',
         },
